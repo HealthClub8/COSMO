@@ -1,17 +1,32 @@
-# COSMO
-COSMO Project Overview
+# ASTRA
+ASTRA Project Overview
 
-The COSMO project began after my son asked me to build a **robot** for his granddad, who is disabled. In the UK alone, there are over 3 million people with similar conditions, yet the market lacks accessible and effective products to meet their needs. Seeing this gap, we started an open-source project to develop a small, user-friendly robot designed specifically to help my dad.
+![Logo](https://cosmo.yes.app/astra/astra.jpg)
 
+The ASTRA project began after my son asked me to build a **robot** for his granddad, who is disabled. In the UK alone, there are over 3 million people with similar conditions, yet the market lacks accessible and effective products to meet their needs. Seeing this gap, we started an open-source project to develop a small, user-friendly robot designed specifically to help my dad.
 
-### Support the project by purchasing my book [COSMO](https://cosmo.yes.app). All proceeds will be donated to charity and individuals in need, like my dad. [COSMO](https://cosmo.yes.app) an audio book — a captivating and original puzzle book inspired by my dad. It's unlike any other book you've read before, blending mystery and emotion with a unique structure that keeps you guessing until the fascinating and unexpected ending.
+### Further down, at the end, you’ll find links to support the project by purchasing one of my books. The [COSMO](https://cosmo.yes.app) book is available now, and the ASTRA book is coming soon… ✅
+
+Initially evolved as a streaming platform for my disabled dad, connected to an old 40" TV. Its purpose was to automatically stream preselected YouTube content via a Raspberry Pi while I was away. It had a simple scheduler that ran a "python stream.py" script every hour (while another device would switch ON the TV at a specific time)
+
+# Usage
+    0 * * * * python stream.py
+
+Later, after my father passed away, my son asked if I could set it up in his room. Since his room was too small for a TV, I purchased a cheapest [HY 320 mini projector](https://magcubic.com/products/protable-projector-hy320-mini). This marked the beginning of a new project. ASTRA has become a friend of COSMO, and together they work as a pair. ASTRA can project onto a wall two meters wide in my son’s room, showing bedtime stories at 8PM, simulating asteroids falling in the night sky, or simply playing cartoons. 
+
+    No more dealing with bulky TVs, tangled HDMI cables, or complicated speakers — everything is small and simple
+    No more wasting time switching it on or hunting for cartoons. I’ve curated a playlist of predefined topics: math, physics, space experiments, and more and added it to the database ('db' folder). Now, it runs automatically on schedule, and my son drifts off to sleep peacefully
+
+### Support the project by purchasing my book [COSMO](https://cosmo.yes.app) All proceeds will be donated to charity and individuals in need, like my dad. [COSMO](https://cosmo.yes.app) an audio book — a captivating and original puzzle book inspired by my dad. It's unlike any other book you've read before, blending mystery and emotion with a unique structure that keeps you guessing until the fascinating and unexpected ending.
 
 ![Logo](https://cosmo.yes.app/poster_eng.jpg)
 
-Currently, we have integrated a single core service called Streamer, which combines several key technologies:
+Currently, we have integrated a straeming core service called "astra", which combines several key technologies:
 
-    1. Chromecast - for streaming content
-    2. Raspberry Pi - used as a streamer to Chromecast (though any headless Linux Python executor could be substituted)
+    1. Affordable mini projector for £30 (HY 320 mini projector). Any Projector with HDMI will work.
+    2. Chromecast - for streaming content (works on any device, even 10-year-old ones, for just £6)
+    3. Raspberry Pi (any model £10) - used as a streamer to Chromecast (though any headless Linux Python executor could be substituted). No need to install KODI, and could be plain Linux OS
+    Optional: 
     KODI (OpenELEC) - selected to explore potential value from this integration, with the flexibility to replace it with another Linux-based solution or plain vanilla Linux in the future
 
 Since my dad cannot operate a TV on his own, we needed a system that could automatically play video, audio, and online services (like YouTube, Netflix, and Spotify) on a set schedule. Another major issue we encountered was the inability to control content recommendations from platforms like YouTube and Spotify. Their algorithms are designed to maximize engagement, not necessarily to provide meaningful or beneficial content. I've seen this problem with using iPads, the algorithm takes over, feeding them content it thinks is relevant, often leading down a rabbit hole of low-quality or inappropriate material like war, politics, or mindless distractions. 
@@ -48,11 +63,12 @@ None! this script is written in pure vanilla Python 3+.
     python stream.py
 
 # Honorable mentions
+ * João Dias [Tasker Android APP](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) and his [homepage](https://tasker.joaoapps.com)
  * Anton Hvornum Aka Torxed https://github.com/Torxed/chromecast
- * [Perth Linux User Group](http://plug.org.au/)'s [talk from 2016](https://docs.google.com/presentation/d/1X1BdFunVnLkF7L0BgevH2zzkcSe0_gtdTJ_pMdEuakQ/htmlpresent).
- * [pychromecast](https://github.com/home-assistant-libs/pychromecast) Which had a lot of `URN`'s that could be re-used.
- * [casttube](https://github.com/ur1katz/casttube) Which had all the YouTube Web-API's to manage a YouTube lounge.
- * Google for making the [ProtoBuf](https://developers.google.com/protocol-buffers/docs/encoding) protocol very open and easy to deconstruct.
+ * [Perth Linux User Group](http://plug.org.au/)'s [talk from 2016](https://docs.google.com/presentation/d/1X1BdFunVnLkF7L0BgevH2zzkcSe0_gtdTJ_pMdEuakQ/htmlpresent)
+ * [pychromecast](https://github.com/home-assistant-libs/pychromecast) Which had a lot of `URN`'s that could be re-used
+ * [casttube](https://github.com/ur1katz/casttube) Which had all the YouTube Web-API's to manage a YouTube lounge
+ * Google for inventing [Chromecast](https://en.wikipedia.org/wiki/Chromecast) in 2013 and making the [ProtoBuf](https://developers.google.com/protocol-buffers/docs/encoding) protocol very open and easy to deconstruct
 
 ## Support the project by purchasing my book [COSMO](https://cosmo.yes.app). All proceeds will be donated to charity and individuals in need, like my dad.
 

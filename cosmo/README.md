@@ -1,7 +1,7 @@
 # COSMO 2
 COSMO 2 Project (COSMO, living in my son’s phone)
 
-Then the idea came to build a helper for my son. He was bombarding me with questions, and since he cannot use Google yet, I decided to automate it. I bought him a simple [£100 phone](https://www.gsmarena.com/motorola_moto_g35-13288.php) and installed [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en_GB), which redirects all his questions to ChatGPT. Using Google TTS (Text-to-Speech) and STT (Speech-to-Text), COSMO explains the answers in a way that matches his age.
+Later an idea came to build a helper for my son. He was bombarding me with questions, and since he cannot use Google yet, I decided to automate it. I bought him a simple [£100 phone](https://www.gsmarena.com/motorola_moto_g35-13288.php) and installed [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en_GB), which redirects all his questions to ChatGPT. Using Google TTS (Text-to-Speech) and STT (Speech-to-Text), COSMO explains the answers in a way that matches his age.
 
 ![Logo](https://cosmo.yes.app/cosmo2/cosmo2.jpg)
 
@@ -23,7 +23,6 @@ If you don’t have a subscription, you can use the [7-day trial version](https:
 3. Replace all XXXXXX placeholders in tasker_import.txt with your variables, then either import the file or manually set the steps following my screenshot (folder: config_screenshots)
 3. COSMO (ChatGPT) is inside. Shake the phone — it should work. If not, check the config_screenshots:
 
-![Logo](https://cosmo.yes.app/cosmo2/c3.jpg)
 ![Logo](https://cosmo.yes.app/cosmo2/a4.jpg)
 ![Logo](https://cosmo.yes.app/cosmo2/c1.jpg)
 ![Logo](https://cosmo.yes.app/cosmo2/c9.jpg)
