@@ -12,7 +12,7 @@ Initially evolved as a streaming platform for my disabled dad, connected to an o
 # Usage
     0 * * * * python stream.py
 
-Later, after my father passed away, my son asked if I could set it up in his room. Since his room was too small for a TV, I purchased a cheapest [HY 320 mini projector](https://magcubic.com/products/protable-projector-hy320-mini). This marked the beginning of a new project. ASTRA has become a friend of COSMO, and together they work as a pair. ASTRA can project onto a wall two meters wide in my son’s room, showing bedtime stories at 8PM, simulating asteroids falling in the night sky, or simply playing cartoons. 
+Later, after my father passed away, my son asked if I could set it up in his room to watch cartoons😊. Since his room was too small for a TV, I purchased a cheapest [HY 320 mini projector](https://magcubic.com/products/protable-projector-hy320-mini). This marked the beginning of a new project. ASTRA has become a friend of COSMO, and together they work as a pair. ASTRA can project onto a wall two meters wide in my son’s room, showing bedtime stories at 8PM, simulating asteroids falling in the night sky, or simply playing cartoons. 
 
     No more dealing with bulky TVs, tangled HDMI cables, 
     or complicated speakers — everything is small and simple...
@@ -71,7 +71,8 @@ None! this script is written in pure vanilla Python 3+.
  * [Perth Linux User Group](http://plug.org.au/)'s [talk from 2016](https://docs.google.com/presentation/d/1X1BdFunVnLkF7L0BgevH2zzkcSe0_gtdTJ_pMdEuakQ/htmlpresent)
  * [pychromecast](https://github.com/home-assistant-libs/pychromecast) Which had a lot of `URN`'s that could be re-used
  * [casttube](https://github.com/ur1katz/casttube) Which had all the YouTube Web-API's to manage a YouTube lounge
- * Google for inventing [Chromecast](https://en.wikipedia.org/wiki/Chromecast) in 2013 and making the [ProtoBuf](https://developers.google.com/protocol-buffers/docs/encoding) protocol very open and easy to deconstruct
+ * Google for inventing [Chromecast](https://en.wikipedia.org/wiki/Chromecast) in 2013 and making the [ProtoBuf](https://developers.google.com/protocol-buffers/docs/encoding) protocol very open and easy to deconstruct; 
+ * Chad Hurley, Steve Chen, and Jawed Karim for inventing [YouTube](https://www.youtube.com)
 
 ## Support the project by purchasing my book [COSMO](https://cosmo.yes.app). All proceeds will be donated to charity and individuals in need, like my dad.
 
