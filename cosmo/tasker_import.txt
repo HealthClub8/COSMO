@@ -180,7 +180,7 @@ List of possible variations of what was heard&lt;/_array_net.dinglisch.android.t
 				<var>%priority</var>
 			</Int>
 			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">Using answer a XXXXXX_years year old child would understand %gv_heard</Str>
+			<Str sr="arg2" ve="3">Using an answer a XXXXXX_years year old child would understand %gv_heard</Str>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3">%response</Str>
 			<Int sr="arg5" val="0"/>
