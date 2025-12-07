@@ -1,5 +1,5 @@
 # ASTRA
-ASTRA Project Overview
+ASTRA Project Overview 😉❤❤❤ 
 
 ![Logo](https://cosmo.yes.app/astra/astra.jpg)
 
@@ -14,8 +14,15 @@ Initially evolved as a streaming platform for my disabled dad, connected to an o
 
 Later, after my father passed away, my son asked if I could set it up in his room. Since his room was too small for a TV, I purchased a cheapest [HY 320 mini projector](https://magcubic.com/products/protable-projector-hy320-mini). This marked the beginning of a new project. ASTRA has become a friend of COSMO, and together they work as a pair. ASTRA can project onto a wall two meters wide in my son’s room, showing bedtime stories at 8PM, simulating asteroids falling in the night sky, or simply playing cartoons. 
 
-    No more dealing with bulky TVs, tangled HDMI cables, or complicated speakers — everything is small and simple
-    No more wasting time switching it on or hunting for cartoons. I’ve curated a playlist of predefined topics: math, physics, space experiments, and more and added it to the database ('db' folder). Now, it runs automatically on schedule, and my son drifts off to sleep peacefully
+    No more dealing with bulky TVs, tangled HDMI cables, 
+    or complicated speakers — everything is small and simple...
+
+    No more wasting time switching it on or hunting for cartoons...
+
+    I’ve curated a playlist of predefined topics: 
+    math, physics, space experiments, and more and added it to the database ('db' folder). 
+
+    Now, it runs automatically on schedule, and my son drifts off to sleep peacefully ❤
 
 ### Support the project by purchasing my book [COSMO](https://cosmo.yes.app) All proceeds will be donated to charity and individuals in need, like my dad. [COSMO](https://cosmo.yes.app) an audio book — a captivating and original puzzle book inspired by my dad. It's unlike any other book you've read before, blending mystery and emotion with a unique structure that keeps you guessing until the fascinating and unexpected ending.
 

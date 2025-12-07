@@ -1,5 +1,5 @@
 # COSMO 2
-COSMO 2 Project (COSMO, living in my son’s phone)
+COSMO 2 Project (COSMO, living in my son’s phone) 😉❤❤❤ 
 
 Later an idea came to build a helper for my son. He was bombarding me with questions, and since he cannot use Google yet, I decided to automate it. I bought him a simple [£100 phone](https://www.gsmarena.com/motorola_moto_g35-13288.php) and installed [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en_GB), which redirects all his questions to ChatGPT. Using Google TTS (Text-to-Speech) and STT (Speech-to-Text), COSMO explains the answers in a way that matches his age.
 
@@ -14,6 +14,10 @@ I can continuously improve the answers by tuning the STT output, refining how qu
 Importantly, this solution does not need high-bandwidth Internet content, as it only uses pure API calls and text uploads. It follows the KISS (Keep It Simple) principle, is fully independent, and is entirely serverless. It doesn’t require any third-party servers, doesn’t need sign-ups or paid subscriptions, and doesn’t send or record voice data. It gives full control over the code, offering maximum flexibility and customization. Configuration is done easily through the simple Tasker UI, making it a practical and beneficial solution for both my son and me.
 
 Every conversation is saved, so I have full visibility into what my son asks and how COSMO responds. This helps me tune COSMO better over time. All interactions are stored in my Google Drive in cosmo.csv.
+
+# Usage
+
+    shake phone and magic happends... 😉❤❤❤ 
 
 To make it running: 
 1. Get [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en_GB)
