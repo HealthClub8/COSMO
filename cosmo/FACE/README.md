@@ -1,5 +1,5 @@
-# COSMO
-COSMO Face ❤❤
+# COSMO ❤
+COSMO Face
 
 While looking at my old iPhone sitting in the drawer, I thought, this could be a COSMO face.
 I turned to my son and asked, “Would you want COSMO to have its own face?”...
@@ -11,7 +11,7 @@ And so, my old iPhone XS became the perfect candidate for COSMO’s new face.
 ![Logo](https://cosmo.yes.app/face/face.jpg)
 
 # Usage: open in your PC or old phone / tablet (in full screen 'F11')
-    https://cosmo.yes.app/face/
+    [https://cosmo.yes.app/face/](https://cosmo.yes.app/face/)
 
 # Send Smile Command
     curl -X POST https://rest.ably.io/channels/cosmo_face/messages -u "CClXdw.Z3P7Fw:G1W_WXLZYUpqqnjvplbv_GDmUJ3TB4lk1bs54DblqpE" -H "Content-Type: application/json" --data '{ "name":"cURL","data": "smile" }'
